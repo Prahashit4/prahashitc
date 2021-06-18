@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int a,b;
+ a=6;
+ b=4;
+ clrscr();
+ printf("%d>%d=%d\n",a,b,a>b);
+ printf("%d<%d=%d\n",a,b,a<b);
+ printf("%d>=%d=%d\n",a,b,a>=b);
+ printf("%d<=%d=%d\n",a,b,a<=b);
+}
+
+
